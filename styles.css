@@ -22,8 +22,8 @@ h2{
     color: #ffffff;
     padding: 2rem;
     border-radius: 2rem;
-
 }
+
 .color{
     color: rgb(66, 153, 247);
 }
@@ -32,9 +32,9 @@ h2{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(247, 235, 221);
-    
+    background-color: rgb(247, 235, 221);   
 }
+
 ul, .btn-hero{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -46,8 +46,7 @@ ul, .btn-hero{
     float: left;
     font-size: 20px;  
     font-weight: bold;
-    list-style-type: none;
-   
+    list-style-type: none;  
 }
 
 a{
