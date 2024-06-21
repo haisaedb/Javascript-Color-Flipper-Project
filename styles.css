@@ -24,7 +24,6 @@ h2{
     border-radius: 2rem;
 
 }
-
 .color{
     color: rgb(66, 153, 247);
 }
@@ -36,7 +35,7 @@ h2{
     background-color: rgb(247, 235, 221);
     
 }
-ul{
+ul, .btn-hero{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal; 
@@ -46,12 +45,19 @@ ul{
 .nav-links li{
     float: left;
     font-size: 20px;  
+    font-weight: bold;
     list-style-type: none;
+   
 }
 
 a{
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 14px 16px; 
+    color: rgb(66, 136, 242);
+}
+
+a:hover{
+    color:#222;
 }
 
 main{
@@ -62,6 +68,23 @@ main{
     position: absolute;
     text-align: center;
     top: 400px;
+}
+
+.btn-hero{
+    transform:uppercase;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 14px 10px;
+    background: transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn-hero:hover{
+    background: #222;
+    color: #ffffff;
 }
 
 
