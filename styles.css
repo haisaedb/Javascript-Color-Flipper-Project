@@ -74,7 +74,7 @@ main{
 .container{
     position: absolute;
     text-align: center;
-    top: 300px;
+    bottom: 300px;
 }
 
 .btn-hero{
