@@ -71,7 +71,7 @@ main{
 }
 
 .btn-hero{
-    transform:uppercase;
+    text-transform: uppercase;
     color: #ffffff;
     display: inline-block;
     border-radius: 10%;
@@ -80,11 +80,13 @@ main{
     font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.3s linear;
+    border: 1px solid black;
 }
 
 .btn-hero:hover{
     background: #222;
     color: #ffffff;
+    font-weight: bold;
 }
 
 
