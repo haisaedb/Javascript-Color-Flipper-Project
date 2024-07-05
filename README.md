@@ -1,2 +1,2 @@
 # Javascript-Color-Flipper-Project
-How to create a Color Flipper
+JS Color flipper project following the freecodecamp tutorial.
